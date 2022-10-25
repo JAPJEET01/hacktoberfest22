@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {
+background-color: brown; /*sets the button background color as brown*/
+padding: 12px 18px; /*sets the button padding as 12px and 18px */
+width: 100%; /*sets the button width 100%*/
+margin: 6px 0;/*sets the margin 6px and 0px*/
+border: none;/*sets the button border is none*/
+}
+input[type=text], input[type=password] {/*sets the user name and password fields styles*/
+padding: 11px 17px; /*sets the user name and password padding as 11px and 18px */
+width: 100%;/*sets the user name and password width as 100% */
+display: inline-block; /*sets the user name and password display as block color*/
+margin: 6px 0;/*sets the user name and password margin as 6px and 0px*/
+border: 2px solid red;/*sets the user name and password border with 2px, solid border and red color border*/
+box-sizing: border-box; /*sets the user name and password fields as box shape*/
+}
+span.passwordField {/*sets the password field style*/
+padding-top: 16px;/*sets the password field top padding as 16px*/
+float: right;/*sets the password field fixed to right*/
+}
+.mainBody {
+padding: 14px; /*sets the total body padding as 14px*/
+}
+</style>
+</head>
+<body>
+<center><h2>Login Form for EDUCBA</h2></center>
+<form action="https://cdn.educba.com/LoginFormCSS.java" method="post">
+<div class="mainBody">
+<!- creating user name label->
+<label for="userName">
+<b>User Name :</b>
+</label>
+<!- creating user name field->
+<input type="text" placeholder="Please enter your username" name="userName">
+<!- creating password label->
+<label for="passwordField">
+<b>Password :</b>
+</label>
+<!- creating password field->
+<input type="password" placeholder="Please enter your password" name="passwordField">
+<!- creating button ->
+<button type="submit">Login</button>
+</div>
+</form>
+</body>
+</html>
